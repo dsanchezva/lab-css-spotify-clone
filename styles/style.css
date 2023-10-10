@@ -6,3 +6,135 @@ Green: #00B172
 White: #FFF
 
 */
+html {
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ /* STYLES HEADER */
+
+
+ header {
+    background-image:url(../images/landing.jpg);
+    color:#FFF;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.barra-nav {
+    background-color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 55px;
+}
+.barra-nav img {
+    width: 150px;
+
+
+}
+.botones-nav {
+    top: 0;
+    background-color: #FFF;
+    color:black;
+    width: 300px;
+    margin-right: 1em;
+}
+.botones-nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    gap: 5px;
+}
+.botones-nav a {
+    color: black;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 3rem;
+}
+header p {
+    font-size: 1.5rem;
+}
+
+/* ESTILOS SECICION DE INFORMACION */
+
+.logo-container img {
+    width: 50px;
+
+}
+.information-container h2 {
+    text-align: center;
+}
+
+
+.all-logos-container {
+    display: flex;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+    gap: 20px;
+
+}
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+.logo-container h3 {
+    color:#00B172
+}
+
+
+
+/* ESTILOS FOOTER */
+.footer-section {
+    background-color: #00B172;
+    position: relative;
+
+}
+.logo-small{
+    width: 50px;
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    right: 50%;
+    left: 50%;
+}
+
+.app-img {
+    width: 180px;
+    position: absolute;
+    right: 10%;
+    top: 10%;
+}
+.footer-text-container {
+    display: flex;
+    flex-direction: column;
+    color:#FFF;
+    width: 40%;
+    margin-left: 8px;
+}
+.footer-text-container h3 {
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
+.footer-text-container h4 {
+    font-size: 0.9rem;
+    
+}
+p {
+    font-size: 0.8rem;
+}
