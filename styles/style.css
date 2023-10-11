@@ -73,6 +73,9 @@ header p {
 }
 .information-container h2 {
     text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 0.5em;
+    text-decoration-color: #00B172;
 }
 
 
@@ -129,6 +132,7 @@ header p {
 }
 .footer-text-container h3 {
     text-decoration: underline;
+    text-underline-offset: 0.5em;
     font-size: 1.5rem;
 }
 .footer-text-container h4 {
