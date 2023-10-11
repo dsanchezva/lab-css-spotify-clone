@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 /*
 Colors:
 
@@ -8,7 +9,7 @@ White: #FFF
 */
 html {
     font-size: 16px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Roboto;
 }
  /* STYLES HEADER */
 
